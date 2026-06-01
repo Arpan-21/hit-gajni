@@ -165,7 +165,7 @@ export default function Collection({ activeModalProduct, setActiveModalProduct, 
               {/* 1. WHATSAPP CTA: */}
               <button
                 onClick={() => {
-                  const phoneNumber = "919811415624";
+                  const phoneNumber = "919999999999";
                   const message = `Hey Fit Era! I'm highly interested in the *${activeModalProduct.title}*.\n\n*Category:* ${activeModalProduct.category}\n*Colors:* ${activeModalProduct.colors}\n\nCan we discuss sizing and a custom fit?`;
                   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                   window.open(whatsappUrl, '_blank');
