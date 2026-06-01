@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <span className="text-2xl font-black tracking-widest text-white uppercase">
-              Fit<span className="text-forest-400">.</span>Era
+              Hit<span className="text-forest-400">.</span>Gajni
             </span>
           </div>
           <div className="hidden md:block">

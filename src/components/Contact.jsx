@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const phoneNumber = "9811415624";
+const phoneNumber = "9999999999";
 
 export default function Contact({ inquiryText, setInquiryText }) {
   const [status, setStatus] = useState('');
@@ -84,8 +84,8 @@ export default function Contact({ inquiryText, setInquiryText }) {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest">Manufactured By:</h4>
-                  <p className="text-slate-200 text-sm font-semibold mt-1">S Raj Creations and Traders</p>
-                  <p className="text-slate-200 text-sm mt-1">GALI NO. 3, Amrit Colony, Near R.P. Model School, Rohtak, Haryana - 124001</p>
+                  <p className="text-slate-200 text-sm font-semibold mt-1">Aamir Creations</p>
+                  <p className="text-slate-200 text-sm mt-1">GALI NO. 420, Tapri CHowk, Near Model School, Panipat, Haryana - 132001</p>
                 </div>
               </div>
 
@@ -95,7 +95,7 @@ export default function Contact({ inquiryText, setInquiryText }) {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest">Email us</h4>
-                  <p className="text-slate-200 text-sm font-semibold mt-1 hover:text-forest-400"><a href="mailto:rajcocaptech200280@yahoo.com">rajcocaptecch200280@yahoo.com</a></p>
+                  <p className="text-slate-200 text-sm font-semibold mt-1 hover:text-forest-400"><a href="mailto:david@yahoo.com">david@yahoo.com</a></p>
                 </div>
               </div>
 
@@ -106,7 +106,7 @@ export default function Contact({ inquiryText, setInquiryText }) {
                 <div>
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest">Contact Now!</h4>
                   <p className="text-slate-200 text-sm font-semibold mt-1">
-                    <a href={`tel:${phoneNumber}`}> +91-98114-15624 </a> (Mon - Sat, 10 AM - 8 PM) </p>
+                    <a href={`tel:${phoneNumber}`}> +91-99999-99999 </a> (Mon - Sat, 10 AM - 8 PM) </p>
                 </div>
               </div>
             </div>

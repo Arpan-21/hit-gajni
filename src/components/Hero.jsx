@@ -21,7 +21,7 @@ export default function Hero() {
       {/* BACKGROUND LAYER (z-0) */}
       <div className="absolute inset-y-0 right-0 z-0 pointer-events-none w-full lg:w-[110%] xl:w-[80%] transition-transform duration-500">
         <img
-          src="img/model_fitness.webp"
+          src="gajni/gaj-4.png"
           alt="Fit Era Performance Background"
           className="w-full h-full object-cover object-[60%_top] lg:object-contain lg:object-right opacity-40 lg:opacity-100"
         />
@@ -70,34 +70,6 @@ export default function Hero() {
             </a>
           </div>
 
-        </div>
-      </div>
-
-      {/* BRAND PROMISE INTEGRATION GRID */}
-      {/* Boosted to z-20 so these cards don't block clicks from above */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full mt-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-slate-800/80 pt-10">
-          <div className="flex items-center gap-4 justify-center lg:justify-start">
-            <span className="text-2xl">🇮🇳</span>
-            <div className="text-left">
-              <h4 className="text-sm font-bold text-white uppercase tracking-wider">Pan-India Shipping</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Tracked door-to-door delivery across all pin codes.</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-4 justify-center lg:justify-start">
-            <span className="text-2xl">🧵</span>
-            <div className="text-left">
-              <h4 className="text-sm font-bold text-white uppercase tracking-wider">Bespoke Customization</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Tailored waist, length, and styling adjustments on demand.</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-4 justify-center lg:justify-start">
-            <span className="text-2xl">💪</span>
-            <div className="text-left">
-              <h4 className="text-sm font-bold text-white uppercase tracking-wider">Zero-Sag Stitching</h4>
-              <p className="text-slate-400 mt-0.5 text-xs">Reinforced interlock loops built to never lose shape.</p>
-            </div>
-          </div>
         </div>
       </div>
 
