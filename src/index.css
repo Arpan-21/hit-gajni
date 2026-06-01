@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Configure Custom Sporty Colors for the Style Engine */
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  --color-navy-800: #1E2538;
+  --color-navy-900: #0B132B;
+  --color-navy-950: #060B18;
+
+  --color-slate-750: #1E293B;
+  --color-slate-800: #111827;
+  --color-slate-900: #0F172A;
+
+  --color-forest-400: #22C55E;
+  --color-forest-500: #15803D;
+  --color-forest-600: #166534;
+  --color-forest-700: #14532D;
+  --color-forest-950: #052E16;
+}
+
+/* Custom infinite carousel scrollbar overrides */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
